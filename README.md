@@ -1,40 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🏡 ALX Listing App
 
-## Getting Started
+**ALX Listing App** is a sleek, modern **Airbnb-style** property listing web application designed to deliver a clean, scalable, and responsive user experience. Built with **Next.js**, **TypeScript**, and **Tailwind CSS**, this project establishes a strong foundation for full-stack development in the real estate or property rental domain.
 
-First, run the development server:
+Whether you're exploring component-driven design or mastering scalable frontend architecture, this project is a practical step forward in your software engineering journey.
+
+---
+
+## 🔍 Project Goals
+
+- Scaffold a professional-grade frontend using industry best practices.
+- Create reusable UI components like Cards and Buttons for rapid scaling.
+- Leverage TypeScript interfaces to enforce type safety and maintainable code.
+- Utilise Tailwind CSS for consistent, mobile-first responsive design.
+- Lay the groundwork for future integration of real-world APIs and backend services.
+
+---
+
+## 🧱 Folder Structure Overview
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+.
+├── components/           # Reusable UI components
+│   └── common/           # Shared components (Card, Button, etc.)
+├── interfaces/           # TypeScript interfaces for props and models
+├── constants/            # Centralised app-wide constants and config
+├── public/
+│   └── assets/           # Images, SVGs, and static media files
+├── pages/                # Next.js routing via file-based structure
+└── styles/               # Global styles, Tailwind base utilities
 ```
+🛠️ Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+⚙️ Next.js – React framework with file-based routing (Pages Router)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+🔐 TypeScript – Type-safe JavaScript for better code reliability
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+🎨 Tailwind CSS – Utility-first CSS for rapid UI development
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+🧹 ESLint – Code linting for maintaining a clean and consistent codebase
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🚀 Getting Started
+Follow these steps to get the app running locally:
 
-## Learn More
+1. Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/BenTachie/alx-listing-app.git
+cd alx-listing-app
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Start the development server
+bash
+Copy
+Edit
+npm run dev
+4. View in browser
+Open http://localhost:3000 in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+The project uses Pages Router, not App Router, and does not use a src directory for simplicity and clarity.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+🖼️ Screenshots
+Coming soon - screenshots will be added once the core UI is developed.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🧭 Upcoming Milestones
+✅ Develop and style the property listing page
 
-## Deploy on Vercel
+🔄 Add dynamic rendering using mock or real API data
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📱 Implement mobile responsiveness and navigation bar
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+🔎 Introduce property filters, sorting, and search functionality
+
+🧩 Prepare backend integration points and user interactions
+
+📜 License
+MIT License - This project is open-source and built for educational, professional, and portfolio development purposes.
+
+🤝 Contributing
+If you’re interested in collaborating, improving UI components, or integrating backend services, feel free to fork this repository and submit a pull request. Let's build something impactful together.
